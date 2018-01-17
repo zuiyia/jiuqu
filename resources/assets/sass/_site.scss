@@ -1,0 +1,72 @@
+.navbar {
+	padding: 15px 0;
+	border-radius: 0;
+	margin-bottom: 0;
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+}
+.navbar-default .navbar-nav > li > a {
+	color: $text-color;
+	font-size: 16px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: $main-color;
+}
+.text-white {
+	color: #fff;
+}
+.text-black {
+	color: #000;
+}
+
+.card {
+	margin: 15px 0;
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+    line-height: 30px;
+}
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+*:focus {
+    outline: none;
+}
