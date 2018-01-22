@@ -20,6 +20,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
+                <img src="/images/logo.png" width="48" style="float: left;margin-right: 15px;" />
                 <router-link to="/" class="navbar-brand">
                     第九区块链
                 </router-link>
@@ -43,8 +44,11 @@
                     </router-link>
                 </ul>
                 <ul class="nav navbar-nav pull-right">
+                    <li>
+                        <a href="/forums">社区</a>
+                    </li>
                     <router-link to="/signup" tag="li">
-                        <a href="/">登陆</a>
+                        <a href="/">登录</a>
                     </router-link>
                     <router-link to="/signup" tag="li">
                         <a href="/">注册</a>

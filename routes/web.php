@@ -11,6 +11,11 @@
 |
 */
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
 Route::any('{all}', function () {
     return view('layouts.master');
 })->where(['all' => '.*']);
